@@ -3,7 +3,7 @@ Project: Data Modeling with Apache Cassandra
 ## Primary Key and composite key
 https://www.bmc.com/blogs/cassandra-clustering-columns-partition-composite-key/
 
-If those fields are wrapped in parentheses then the partition key is composite. Otherwise the first field is the partition key. Any fields listed after the partition key are called clustering columns. By definition the primary key must be unique. That includes clustering columns, since they are part of the primary key. 
+If those fields are wrapped in parentheses then the partition key is composite. Otherwise the first field is the partition key. Any fields listed after the partition key are called clustering columns. By definition the primary key must be unique. That includes clustering columns. Clustering columns determines the order of data in partitions. since they are part of the primary key. 
 
 Some examples of primary key definition are:
 
