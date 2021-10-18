@@ -21,12 +21,12 @@ Importt !
 the sequence of the columns in the CREATE and INSERT statements should follow the order of the COMPOSITE PRIMARY KEY and CLUSTERING columns. In other words, the data should be inserted and retrieved in the same order as the COMPOSITE PRIMARY KEY is set up.
 For example, your first table should be like the following:
 
-CREATE TABLE IF NOT EXISTS music_library (
-      column_C INT, 
-      cloumn_B INT,
-      column_A TEXT,  
-      column_D TEXT,
-     PRIMARY KEY (column_C, column_B)
-)
-INSERT INTO music_library (column_C, column_B, column_A, column_D)
+> CREATE TABLE IF NOT EXISTS music_library (
+>      column_C INT, 
+>      cloumn_B INT,
+>      column_A TEXT,  
+>      column_D TEXT,
+>     PRIMARY KEY (column_C, column_B)
+> )
+> INSERT INTO music_library (column_C, column_B, column_A, column_D)
 
