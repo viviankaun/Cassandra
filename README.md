@@ -1,6 +1,6 @@
 ## Data-Modeling-with-Apache-Cassandra
 #Project: Data Modeling with Apache Cassandra
-https://github.com/viviankaun/Data-Modeling-with-Apache-Cassandra/blob/main/project2.jpeg
+(https://github.com/viviankaun/Data-Modeling-with-Apache-Cassandra/blob/main/project2.jpeg)
 # Primary Key and composite key
 https://www.bmc.com/blogs/cassandra-clustering-columns-partition-composite-key/
 
